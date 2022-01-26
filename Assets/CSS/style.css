@@ -147,22 +147,20 @@ ol.carousel-indicators.position-absolute {
 }
 
 
-.aus-section, .fra-section, .indo-section, .malay-section, .thai-section, .uae-section{
-    position: relative;
-}
-.img-title {
+
+.img-title{
     position: absolute;
-    font-size: 45px;
-    background-color: rgb(251, 178, 53, 90%);
+    background-color: #fbb235ef;
+    display: none;
+    text-decoration: none;
     color: white;
-    padding-top: 7rem;
-    transition: 1s;
 }
 
-.img-title {
-    cursor: pointer;
-    display: none;
-} 
+.car-img-section:hover .img-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 .istanbul h6 {
     font-size: 16px;
